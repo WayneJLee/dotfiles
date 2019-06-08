@@ -16,6 +16,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 Plugin 'nvie/vim-flake8'
+Plugin 'joshdick/onedark.vim'
 
 " Debug ycm
 let g:ycm_server_keep_logfiles = 1
@@ -36,7 +37,7 @@ filetype plugin indent on    " required
 set encoding=utf-8
 
 " Set color scheme
-colorscheme focuspoint
+"colorscheme focuspoint
 
 " PEP Indentation
 au BufNewFile,BufRead *.py

@@ -7,8 +7,10 @@
   go_down = <Primary>Down
   go_left = <Primary>Left
   go_right = <Primary>Right
+  layout_launcher = None
 [profiles]
   [[default]]
+    visible_bell = True
     icon_bell = False
     background_color = "#10111b"
     cursor_color = "#aaaaaa"
