@@ -13,7 +13,7 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:System San Francisco Display 10
+font pango:Hack Bold 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -126,6 +126,7 @@ assign [class="Code"] $workspace3
 assign [class="discord"] $workspace4
 assign [class="Rambox"] $workspace4
 assign [class="Gnome-terminal"] $workspace1
+assign [class="whatsdesk"] $workspace4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -161,16 +162,17 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Set colors
-set $bg-color			#10111b
-set $inactive-bg-color  	#10111b
-set $urgent-bg-color 		#9399fa
-set $text-color 		#aaaaaa
-set $inactive-text-color 	#676E7D
+set $bg-color			#1d2021
+set $active-bg-color		#fb4934
+set $inactive-bg-color  	#3c3836
+set $urgent-bg-color 		#665c54
+set $text-color 		#fbf1c7
+set $inactive-text-color 	#a89984
 
 # Window colors
 # window colors
 #                       border              background         text                 indicator
-client.focused          $bg-color           $bg-color          $text-color          #00ff00
+client.focused          $active-bg-color    $active-bg-color   $text-color          #00ff00
 client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
@@ -184,7 +186,7 @@ bar {
 		background $bg-color
 	    	separator #757575
 		#                  border             background         text
-		focused_workspace  $bg-color          $bg-color          $text-color
+		focused_workspace  $active-bg-color   $active-bg-color          $text-color
 		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 	}
@@ -192,13 +194,16 @@ bar {
 
 # custom startup
 exec spotify
-exec_always feh --bg-scale ~/Pictures/icecave.jpg
+exec_always feh --bg-scale ~/Pictures/cyberpunk.jpg
 exec telegram-desktop
 exec google-chrome
 exec code
 exec discord
 exec xrandr --output HDMI-0 --right-of DP-1
 exec terminator
+exec --no-startup-id compton --config ~/.config/compton.conf -b
+exec whatsdesk
+exec i3-sensible-terminal -l nvim
 
 # custom hotkeys
 
@@ -220,7 +225,8 @@ workspace "5: Etc+" output DP-1
 workspace "9: Music " output DP-1
 
 # i3-gaps
-gaps inner 0
+gaps inner 3
+smart_gaps on
 gaps outer 0
 for_window [class=".*"] border pixel 0
 

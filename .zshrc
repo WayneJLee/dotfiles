@@ -101,3 +101,5 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv)
 # alias zshconfig="mate ~/.zshrc"
 ## alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ycm="bash ~/.config/scripts/vimvenv.sh"
+alias rmgit="sudo git status -s | grep '^\??' | grep -v '.gitignore' | cut -c 4- >> .gitignore"
+
