@@ -24,6 +24,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
+Plugin 'nathanaelkane/vim-indent-guides'
 
 
 " Debug ycm
