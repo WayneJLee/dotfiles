@@ -25,6 +25,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'ryanoasis/vim-devicons'
 
 
 " Debug ycm
@@ -108,3 +109,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 nmap <C-n> :NERDTreeToggle<CR>
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+
+
+
