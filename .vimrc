@@ -26,6 +26,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'ryanoasis/vim-devicons'
+Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 
 
 " Debug ycm
@@ -111,4 +112,12 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 set guifont=DroidSansMono\ Nerd\ Font\ 11
 
-
+" InstantMarkdownVim
+filetype plugin on
+"Uncomment to override defaults:
+"let g:instant_markdown_slow = 1
+"let g:instant_markdown_autostart = 0
+"let g:instant_markdown_open_to_the_world = 1 
+"let g:instant_markdown_allow_unsafe_content = 1
+"let g:instant_markdown_allow_external_content = 0
+"let g:instant_markdown_mathjax = 1
