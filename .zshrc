@@ -8,7 +8,7 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="avit"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -68,7 +68,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+# plugins=(git)
 
 source ~/.oh-my-zsh/oh-my-zsh.sh
 
@@ -102,4 +102,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv)
 ## alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ycm="bash ~/.config/scripts/vimvenv.sh"
 alias rmgit="sudo git status -s | grep '^\??' | grep -v '.gitignore' | cut -c 4- >> .gitignore"
+alias gobuster="/opt/gobuster/gobuster"
+alias xclip="xclip -selection c"
 
+#PROMPT='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} '
