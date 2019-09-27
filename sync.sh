@@ -9,7 +9,7 @@ config=(
 	scripts 
 	.tmux.conf 
 	.vimrc 
-	Xresources 
+	.Xresources 
 	.zshrc
 )
 
