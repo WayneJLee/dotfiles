@@ -18,10 +18,12 @@ do
 	cp -r $file ~/dotfiles;
 done
 
+dconf dump /org/gnome/terminal/ > gnome_term.txt
+
 git status --porcelain | sed -n -e 's/^?? //p' >> .gitignore
 
 git add .
 
-git commit -m 'Auto push'
+git commit -m 'Auto push $(date)'
 
 git push -u origin master
