@@ -24,6 +24,8 @@ git status --porcelain | sed -n -e 's/^?? //p' >> .gitignore
 
 git add .
 
-git commit -m 'Auto push $(date)'
+timestamp=$(date +"%D %T")
+
+git commit -m '$timestamp: Sync'
 
 git push -u origin master
