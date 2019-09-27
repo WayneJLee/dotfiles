@@ -35,7 +35,6 @@
 .node_repl_history
 .npm/
 .nv/
-.oh-my-zsh/
 .pki/
 .profile
 .pylint.d/
