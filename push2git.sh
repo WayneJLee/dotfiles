@@ -26,6 +26,6 @@ git add .
 
 timestamp=$(date +"%D %T")
 
-git commit -m '$timestamp: Sync'
+git commit -m "$timestamp: Sync"
 
 git push -u origin master
