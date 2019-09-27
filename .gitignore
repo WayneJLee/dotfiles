@@ -64,3 +64,10 @@ snap/
 test
 ycm/
 screenFetch-2019-06-11_02-36-50.png
+.config/cherrytree/
+.config/composer/
+.config/devilspie2/
+.config/gnome-control-center/
+.config/gtk-2.0/
+.config/systemd/
+.config/tilix/
