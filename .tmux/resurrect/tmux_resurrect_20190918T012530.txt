@@ -1,6 +1,0 @@
-pane	HTB	0	:VPN	0	:-	0	:/root/HTB/Boxes/Wall	1	openvpn	:openvpn /root/HTB/VPN/vGsec
-pane	HTB	1	:enum	1	:*	0	:/root/HTB/Boxes/Wall	0	gobuster	:/opt/gobuster/gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u 10.10.10.157 -t 20 -x .php,.html
-pane	HTB	1	:enum	1	:*	1	:/root/HTB/Boxes/Wall	1	zsh	:
-window	HTB	0	0	:-	b79d,282x52,0,0,0
-window	HTB	1	1	:*	124f,282x52,0,0{141x52,0,0,1,140x52,142,0,3}
-state	HTB	
