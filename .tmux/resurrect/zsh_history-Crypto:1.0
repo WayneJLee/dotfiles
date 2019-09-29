@@ -1,0 +1,64 @@
+ssh root@139.162.36.112
+ftp 139.162.36.112
+ls
+md projects
+mv test/* projects
+cd projects
+ls
+cd pouchnation
+ls
+cd ..
+ls
+rm swing
+ls
+rm swing -r
+ls
+md crypto
+ls
+cd crypto
+ls
+md birthday
+cd birthday
+python3
+tmux ls
+tmux a -t TEST
+tmux new -s Crypto
+ls
+cp ~/HTB/Boxes/Kryptos/crypt/exploit/userDecrypt
+cp ~/HTB/Boxes/Kryptos/crypt/exploit/userDecrypt/decrypt.py .
+vim decrypt.py
+ls
+python3
+ls
+vim decrypt.py
+cp ~/HTB/Boxes/Kryptos/crypt/exploit/userDecrypt
+cp ~/HTB/Boxes/Kryptos/crypt/exploit/userDecrypt/creds* .
+ls
+rm creds.hex
+rm creds.dump
+cat creds.new
+ls
+python3 decrypt.py
+ls
+python3 
+echo 'Happy birthday in advanced my love! I
+echo 'Happy birthday my love! I thought of doing something different so for my first trick, I'm going to put you on a rabbit hunt. If you finish it, you'll be able to get your present.'
+echo 'The first puzzle is located fc -lLn -64 > '/root/.tmux/resurrect/zsh_history-Crypto:1.0'\n fc -R '/root/.tmux/resurrect/zsh_history-Crypto:1.0'\nls
+ls
+vim msg
+ls
+vim msg
+cp ori actual msg
+cp ori msg
+vim msg
+cat ms
+cat msg
+vim msg
+cat msg | base64
+vim msg
+cat msg | base64
+cat msg | base64 | base64 -d
+cat msg | base64 
+cat msg | base64 -w 0
+cat msg | base64 -w 0 | xclip -sel c
+cat msg | base64 -w 0

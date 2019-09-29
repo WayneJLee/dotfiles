@@ -1,0 +1,16 @@
+pane	HTB	0	:VPN	0	:	0	:/root/HTB/Boxes/Kryptos	1	openvpn	:openvpn ../../VPN/vGsec
+pane	HTB	1	:zsh	0	:	0	:/root/HTB/Boxes/Kryptos/MySQL-Auth-Server	0	zsh	:
+pane	HTB	1	:zsh	0	:	1	:/root/HTB/Boxes/Kryptos/www	1	zsh	:
+pane	HTB	2	:exploit	0	:	0	:/root/HTB/Boxes/Kryptos/enum	0	vim	:vim kryptos.py
+pane	HTB	2	:exploit	0	:	1	:/root/HTB/Boxes/Kryptos/enum	1	vim	:vim enum_krypt.py
+pane	HTB	3	:ssh	0	:-	0	:/root/HTB/Boxes/Kryptos/crypt/exploit/userDecrypt	0	python3	:python3
+pane	HTB	3	:ssh	0	:-	1	:/root/HTB/Boxes/Kryptos/crypt/exploit/userDecrypt	1	ssh	:ssh rijndael@kryptos.htb
+pane	HTB	4	:zsh	1	:*	0	:/root/HTB/Boxes/Kryptos/crypt/exploit/userDecrypt	1	zsh	:
+pane	laptop	0	:zsh	1	:*	0	:/root/HTB/Boxes/Kryptos	1	zsh	:
+window	HTB	0	0	:	b962,238x52,0,0,5
+window	HTB	1	0	:	39ae,238x52,0,0{120x52,0,0,6,117x52,121,0,7}
+window	HTB	2	0	:	2271,238x52,0,0{119x52,0,0,10,118x52,120,0,12}
+window	HTB	3	0	:-	8808,238x52,0,0{118x52,0,0,11,119x52,119,0,9}
+window	HTB	4	1	:*	5c02,282x52,0,0,13
+window	laptop	0	1	:*	5de4,238x62,0,0,15
+state	laptop	

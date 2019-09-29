@@ -1,0 +1,15 @@
+pane	HTB	0	:VPN	0	:	0	:/root/HTB/Boxes/Kryptos	1	openvpn	:openvpn ../../VPN/vGsec
+pane	HTB	1	:SQLi	1	:*	0	:/root/HTB/Boxes/Kryptos/crypt/exploit	0	zsh	:
+pane	HTB	1	:SQLi	1	:*	1	:/root/HTB/Boxes/Kryptos/crypt/exploit	1	python3	:python3 kryptos_enum.py
+pane	HTB	1	:SQLi	1	:*	2	:/root/HTB/Boxes/Kryptos/crypt/exploit	0	vim	:vim kryptos_sqlinjection.py
+pane	HTB	2	:zsh	0	:	0	:/root/HTB/Boxes/Kryptos/MySQL-Auth-Server	1	zsh	:
+pane	HTB	2	:zsh	0	:	1	:/var/www/html	0	vim	:vim index.php
+pane	HTB	3	:zsh	0	:	0	:/var/www/html	1	zsh	:
+pane	HTB	4	:sqlite3	0	:-Z	0	:/tmp	1	sqlite3	:sqlite3
+pane	HTB	4	:sqlite3	0	:-Z	1	:/tmp	0	zsh	:
+window	HTB	0	0	:	bb9d,282x53,0,0,0
+window	HTB	1	1	:*	0972,282x53,0,0{141x53,0,0,1,140x53,142,0[140x26,142,0,5,140x26,142,27,6]}
+window	HTB	2	0	:	96d0,282x53,0,0{141x53,0,0,2,140x53,142,0,3}
+window	HTB	3	0	:	bba1,282x53,0,0,4
+window	HTB	4	0	:-Z	16d8,282x53,0,0{141x53,0,0,7,140x53,142,0,8}
+state	HTB	

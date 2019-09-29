@@ -1,0 +1,3 @@
+pane	0	0	:ssh	1	:*	0	:/root	1	ssh	:ssh wayne@1.1.1.15
+window	0	0	1	:*	c01d,260x45,0,0,0
+state	0	

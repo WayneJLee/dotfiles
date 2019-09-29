@@ -1,0 +1,17 @@
+pane	HTB	0	:vpn	0	:	0	:/root/HTB/Boxes/Kryptos	1	openvpn	:openvpn ../../VPN/vGsec
+pane	HTB	1	:enum	0	:	0	:/root/HTB/Boxes/Bitlab/gobuster	0	zsh	:
+pane	HTB	1	:enum	0	:	1	:/root/HTB/Boxes/Bitlab	1	zsh	:
+pane	HTB	2	:exploit	0	:-	0	:/root/HTB/Boxes/Bitlab/exploit/www	0	tcpdump	:tcpdump -i tun0 icmp
+pane	HTB	2	:exploit	0	:-	1	:/root/HTB/Boxes/Bitlab/exploit	1	nc	:nc -lvnp 9696
+pane	HTB	3	:scp	1	:*	0	:/root/HTB/Boxes/Bitlab/repo	0	ssh	:ssh clave@10.10.10.114
+pane	HTB	3	:scp	1	:*	1	:/root/HTB/Boxes/Bitlab/repo	1	scp	:scp -r clave@gitlab.htb:/var/www/html/profile .
+pane	HTB	3	:scp	1	:*	2	:/root/HTB/Boxes/Bitlab/repo/profile\ (deleted)	0	zsh	:
+pane	HTB	3	:scp	1	:*	3	:/root/HTB/Boxes/Bitlab/repo/profile\ (deleted)	0	zsh	:
+pane	HTB	4	:zsh	0	:	0	:/root/HTB/Boxes/Bitlab/repo	0	zsh	:
+pane	HTB	4	:zsh	0	:	1	:/root/HTB/Boxes/Bitlab/ghidra	1	zsh	:
+window	HTB	0	0	:	b79e,282x52,0,0,1
+window	HTB	1	0	:	2f22,282x45,0,0{141x45,0,0,9,140x45,142,0,10}
+window	HTB	2	0	:-	f28e,282x45,0,0{141x45,0,0,12,140x45,142,0,13}
+window	HTB	3	1	:*	f1f6,282x45,0,0{142x45,0,0,14,139x45,143,0[139x22,143,0,18,139x22,143,23{69x22,143,23,19,69x22,213,23,23}]}
+window	HTB	4	0	:	3290,282x45,0,0{141x45,0,0,16,140x45,142,0,21}
+state	HTB	

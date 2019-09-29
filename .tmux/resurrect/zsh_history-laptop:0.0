@@ -1,0 +1,64 @@
+ping kryptos.htb
+ls
+vim kryptos.py
+ls
+python3
+pip3 install bottle
+vim kryptos.py
+pip3 install ecsda
+vim kryptos.py
+python3
+ls
+vim kryptos.py
+python3 kryptos.py
+vim kryptos.py
+cp kryptos.py enum.py
+vim enum.py
+python3 enum.py
+ls -la
+vim enum.py
+ls -la
+vim enum.py
+python3 enum.py
+vim enum.py
+ls
+mv enum.py krypt_enum.py
+python3 krypt
+python3 krypt_enum.py
+vim enum.py
+vim krypt
+mv krypt_enum.py enum_krypt.py
+python3 enum_krypt.py
+vim enum_krypt.py
+python3 enum_krypt.py
+vim enum_krypt.py
+python3 enum_krypt.py
+vim enum_krypt.py
+python3 enum_krypt.py
+vim enum_krypt.py
+python3 enum_krypt.py
+vim enum_krypt.py
+python3 enum_krypt.py
+vim enum_krypt.py
+python3 enum_krypt.py
+vim enum_krypt.py
+ls
+vim krypt
+rm krypt
+ls
+vim kryptos.py
+vim
+p fc -lLn -64 > '/root/.tmux/resurrect/zsh_history-HTB:3.0'
+python3
+ls
+tmux ls
+tmux a -t HTB
+tmux detach
+ls
+tmux new -s laptop
+ls
+ls -la
+cd HTB/Boxes/Kryptos
+ls
+tmux new -s laptop
+ls

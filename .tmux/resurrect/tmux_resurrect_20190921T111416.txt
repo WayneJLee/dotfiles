@@ -1,0 +1,9 @@
+pane	HTB	0	:VPN	0	:	0	:/root/HTB/Boxes/Wall	1	openvpn	:openvpn ../../VPN/vGsec
+pane	HTB	1	:vim	0	:-	0	:/root	0	vim	:/bin/sh /bin/seclists
+pane	HTB	1	:vim	0	:-	1	:/root/HTB/Boxes/Player/webenum	1	vim	:vim auth.php
+pane	HTB	3	:zsh	1	:*	0	:/root/Downloads	1	zsh	:
+pane	HTB	3	:zsh	1	:*	1	:/opt/t00lz/VHostScan	0	zsh	:
+window	HTB	0	0	:	b79d,282x52,0,0,0
+window	HTB	1	0	:-	9253,282x52,0,0{141x52,0,0,3,140x52,142,0,8}
+window	HTB	3	1	:*	897f,282x52,0,0{141x52,0,0,5,140x52,142,0,10}
+state	HTB	

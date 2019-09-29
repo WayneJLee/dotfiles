@@ -1,0 +1,10 @@
+pane	HTB	0	:VPN	0	:	0	:/root/HTB/Boxes/Player	1	openvpn	:openvpn ../../VPN/vGsec
+pane	HTB	1	:python	1	:*	0	:/root/HTB/Boxes/Player/ssh_exploit	1	python	:python CVE-2016-3115.py player.htb 6686 telegen d-bC|jClluepS/w
+pane	HTB	1	:python	1	:*	1	:/root/HTB/Boxes/Player	0	ssh	:ssh telegen@player.htb -p 6686
+pane	HTB	2	:zsh	0	:-	0	:/root/HTB/Boxes/Player/ssh_exploit	1	zsh	:
+pane	HTB	3	:zsh	0	:	0	:/root/HTB/Boxes/Player/compressions/exploit	1	zsh	:
+window	HTB	0	0	:	b79d,282x52,0,0,0
+window	HTB	1	1	:*	924e,282x52,0,0{141x52,0,0,1,140x52,142,0,2}
+window	HTB	2	0	:-	b7a0,282x52,0,0,3
+window	HTB	3	0	:	b7a1,282x52,0,0,4
+state	HTB	

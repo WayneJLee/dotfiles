@@ -1,0 +1,5 @@
+pane	0	0	:zsh	1	:*	0	:/root/dotfiles	1	zsh	:
+pane	0	0	:zsh	1	:*	1	:/root/dotfiles	0	vim	:vim sync.sh
+pane	0	0	:zsh	1	:*	2	:/root/dotfiles	0	vim	:vim push2git.sh
+window	0	0	1	:*	e2ee,282x45,0,0{141x45,0,0,0,140x45,142,0[140x22,142,0,1,140x22,142,23,2]}
+state	0	

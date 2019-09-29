@@ -1,0 +1,64 @@
+ls -la
+git clone git://10.10.10.114/root/profile fc -lLn -64 > '/root/.tmux/resurrect/zsh_history-HTB:3.0'
+ls
+which socat
+cp /usr/bin/socat ../www/
+cd ../www
+python3 -m http.server 80
+curl gitlab.htb:6969
+curl gitlab.htb:4242
+curl 10.10.10.114
+curl 10.10.10.114:80
+curl 10.10.10.114:2000
+git clone http://10.10.10.114/root/deployer
+git clone git://10.10.10.114/root/deployer
+curl http://10.10.10.114/root/deployer
+telnet 10.10.10.114 2000
+echo -n c3NoLXN0cjBuZy1wQHNz== |base64 -d
+echo -n c3NoLXN0cjBuZy1wQHNz== | wc -c
+echo -n c3NoLXN0cjBuZy1wQHNz==== | base64 -d
+echo -n c3NoLXN0cjBuZy1wQHNz=== | base64 -d
+echo -n c3NoLXN0cjBuZy1wQHNz | base64 -d
+echo whatthefuck
+echo whatthefuck | base64 
+echo d2hhdHRoZWZ1Y2sK | base64 -d
+echo whatthefu
+echo whatthefu | base64 -d
+echo whatthefu | base64
+echo -n whatthefuck | base64
+echo -n whatthefuc | base64
+echo c3NoLXN0cjBuZy1wQHNz | base64 -d
+echo c3NoLXN0cjBuZy1wQHNz== | base64 -d
+echo c3NoLXN0cjBuZy1wQHNz | wc -c
+echo -n c3NoLXN0cjBuZy1wQHNz | wc -c
+echo c3NoLXN0cjBuZy1wQHNz== | base64 -d
+echo c3NoLXN0cjBuZy1wQHNz | base64 -d
+ssh clave@gitlab.htb
+echo -n c3NoLXN0cjBuZy1wQHNz== | base64 -d
+git clone clave@gitlab.htb:root/profile.git
+echo -n c3NoLXN0cjBuZy1wQHNz | base64 -d
+ssh clave@gitlab.htb
+ping gitlab.htb
+ssh clave@10.10.10.114
+echo -n c3NoLXN0cjBuZy1wQHNz== | base64 -d
+git clone clave@gitlab.htb:root/profile.git
+git clone clave@gitlab.htb:/var/www/html/profile.git
+git clone clave@gitlab.htb:/var/www/html/profile/profile.git
+ssh -N -L 3022:localhost:3022 clave@gitlab.htb
+ssh root@gitlab.htb
+apt-get install wine32
+apt-get install wine
+wine
+apt-get install wine32
+apt-get install libwine
+libwine
+wine
+dpkg --ad-architecture i386 && apt-get update && apt-get install wine32
+dpkg --add-architecture i386 && apt-get update && apt-get install wine32
+apt-get install wine32
+ollydbg fc -lLn -64 > '/root/.tmux/resurrect/zsh_history-HTB:4.0'
+ls /opt/ghidra_9.0.4/server fc -lLn -64 > '/root/.tmux/resurrect/zsh_history-HTB:4.0'
+ls
+cd ../../Kryptos/privesc
+ls
+cat injection.py | xclip

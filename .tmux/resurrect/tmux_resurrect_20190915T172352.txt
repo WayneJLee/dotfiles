@@ -1,0 +1,11 @@
+pane	HTB	0	:vpn	0	:	0	:/root/HTB/Boxes/Kryptos	1	openvpn	:openvpn ../../VPN/vGsec
+pane	HTB	1	:enum	0	:-	0	:/root/HTB/Boxes/Bitlab/gobuster	0	zsh	:
+pane	HTB	1	:enum	0	:-	1	:/root/HTB/Boxes/Bitlab	1	zsh	:
+pane	HTB	2	:exploit	1	:*	0	:/root/HTB/Boxes/Bitlab/exploit/www	1	curl	:curl gitlab.htb:4242
+pane	HTB	2	:exploit	1	:*	1	:/root/HTB/Boxes/Bitlab/exploit	0	nc	:nc -lvnp 9696
+pane	HTB	3	:zsh	0	:	0	:/root/HTB/Boxes/Bitlab/repo	1	zsh	:
+window	HTB	0	0	:	b79e,282x52,0,0,1
+window	HTB	1	0	:-	8981,282x52,0,0{141x52,0,0,9,140x52,142,0,10}
+window	HTB	2	1	:*	9f6e,282x52,0,0{141x52,0,0,12,140x52,142,0,13}
+window	HTB	3	0	:	5c03,282x52,0,0,14
+state	HTB	
