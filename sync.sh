@@ -11,6 +11,7 @@ config=(
 	.vimrc 
 	.Xresources 
 	.zshrc
+	.tmux
 )
 
 for file in "${config[@]}";
