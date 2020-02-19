@@ -23,21 +23,14 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-Plugin 'chase/focuspoint-vim'
-Plugin 'vim-scripts/indentpython.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'nvie/vim-flake8'
 Plugin 'joshdick/onedark.vim'
-Plugin 'danilo-augusto/vim-afterglow'
 Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'tpope/vim-surround'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'ryanoasis/vim-devicons'
-Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 
 
 " add all your plugins here (note older versions of Vundle
