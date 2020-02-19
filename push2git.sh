@@ -6,12 +6,9 @@ config=(
 	~/.bashrc 
 	~/.config 
 	~/.fonts 
-	~/.gdbinit 
 	~/.oh-my-zsh 
-	~/scripts 
 	~/.tmux.conf
 	~/.vimrc 
-	~/Xresources 
 	~/.zshrc
 	~/.tmux
 )

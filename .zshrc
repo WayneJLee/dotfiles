@@ -111,3 +111,10 @@ alias ghidra="/opt/ghidra_9.0.4/ghidraRun"
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte-2.91.sh
 fi
+
+if [[ -f /proc/version ]] && grep --quiet Microsoft /proc/version; then
+
+	# Set correct umask
+	# Microsoft/BashOnWindows#352
+	[[ "$(umask)" == '000' ]] && umask 022
+fi

@@ -88,3 +88,4 @@ screenFetch-2019-06-11_02-36-50.png
 .tmux/plugins/tpm/.gitignore
 .tmux/plugins/tpm/.gitmodules
 .tmux/resurrect/
+gnome_term.txt
