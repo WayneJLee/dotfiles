@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
   export ZSH="$HOME/.oh-my-zsh"
 
+# Add /usr/sbin to PATH
+  export PATH=$PATH:/usr/sbin
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -100,11 +103,6 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 ## alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ycm="bash ~/.config/scripts/vimvenv.sh"
-alias rmgit="sudo git status -s | grep '^\??' | grep -v '.gitignore' | cut -c 4- >> .gitignore"
-alias gobuster="/opt/gobuster/gobuster"
-alias xclip="xclip -selection c"
-alias ghidra="/opt/ghidra_9.0.4/ghidraRun"
 
 #PROMPT='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} '
 #

@@ -29,7 +29,6 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
-Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'ryanoasis/vim-devicons'
 
 
@@ -46,7 +45,7 @@ filetype plugin indent on    " required
 set encoding=utf-8
 
 " Set color scheme
-colorscheme onedark
+colorscheme gruvbox
 set background=dark
 set t_Co=256
 set termguicolors
@@ -88,7 +87,6 @@ au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
     \ set shiftwidth=4 |
-    \ set textwidth=79 |
     \ set expandtab |
     \ set autoindent |
     \ set fileformat=unix
@@ -118,3 +116,6 @@ filetype plugin on
 "let g:instant_markdown_allow_unsafe_content = 1
 "let g:instant_markdown_allow_external_content = 0
 "let g:instant_markdown_mathjax = 1
+
+" Disable Preview Jedi VIM
+set completeopt-=preview

@@ -89,3 +89,11 @@ screenFetch-2019-06-11_02-36-50.png
 .tmux/plugins/tpm/.gitmodules
 .tmux/resurrect/
 gnome_term.txt
+.config/bloodhound/
+.config/chromium/
+.config/discord/
+.config/freerdp/
+.config/nvim/.netrwhist
+.config/qt5ct/
+.config/qterminal.org/
+.config/remmina/
