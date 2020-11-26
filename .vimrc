@@ -42,7 +42,7 @@ filetype plugin indent on    " required
 set encoding=utf-8
 
 " Set color scheme
-colorscheme gruvbox
+colorscheme onedark
 set background=dark
 set t_Co=256
 set termguicolors
