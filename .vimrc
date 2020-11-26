@@ -24,10 +24,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'joshdick/onedark.vim'
-Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline'
-Plugin 'davidhalter/jedi-vim'
-Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'ryanoasis/vim-devicons'
 
@@ -91,7 +88,6 @@ au BufNewFile,BufRead *.py
     \ set autoindent |
     \ set fileformat=unix
 
-" YouCompleteMe settings
 
 " Key bindings
 nnoremap <C-Left> :tabprevious<CR>
@@ -99,23 +95,3 @@ noremap <C-Right> :tabnext<CR>
 nnoremap <C-j> :tabprevious<CR>
 nnoremap <C-k> :tabnext<CR>
 
-" NERDTree config
-" autocmd VimEnter * NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-nmap <C-n> :NERDTreeToggle<CR>
-let NERDTreeMinimalUI = 1
-let NERDTreeDirArrows = 1
-set guifont=DroidSansMono\ Nerd\ Font\ 11
-
-" InstantMarkdownVim
-filetype plugin on
-"Uncomment to override defaults:
-"let g:instant_markdown_slow = 1
-"let g:instant_markdown_autostart = 0
-"let g:instant_markdown_open_to_the_world = 1 
-"let g:instant_markdown_allow_unsafe_content = 1
-"let g:instant_markdown_allow_external_content = 0
-"let g:instant_markdown_mathjax = 1
-
-" Disable Preview Jedi VIM
-set completeopt-=preview
